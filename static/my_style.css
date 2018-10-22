@@ -1,0 +1,175 @@
+* {
+	box-sizing: border-box;
+}
+
+#ico-img {
+	max-height: 1.7rem;
+	margin-right: 0.5rem;
+}
+.card-img-overlay {
+	padding: 5rem 2.25rem;
+}
+
+.card-title {
+	font-size: 1.7rem;
+}
+
+.ico-bg {
+	max-width: 7rem;
+	max-height: 7rem;
+}
+
+#bg-banner {
+	margin-top: 3.5rem;
+}
+
+#travel-content {
+	background-color: #EFEFEF;
+	padding: 7% 4%;
+}
+
+.tvc {
+	background-color: #EFEFEF;
+	padding: 12% 5%;
+}
+
+#travel-content h1 {
+	margin-bottom: 5%;
+}
+
+.tvc h1 {
+	margin-bottom: 10%;
+}
+
+.tvc img {
+	width: 100%;
+	margin: 5% 0;
+}
+
+.tvc iframe {
+	max-width: 100%;
+	margin: 5% 0;
+}
+
+.tvc p {
+	margin: 1rem 0;
+}
+
+#banner {
+	margin-top: 3rem;
+}
+
+.carousel-inner img {
+	width: 100%;
+}
+
+.carousel-caption h1 {
+	font-size: 1.7rem;
+}
+
+.carousel-caption p, .carousel-caption a {
+	font-size: 0.7rem;
+}
+
+.last-update {
+	margin-top: 1rem;
+}
+
+footer {
+	background-color: #111111;
+	color: #F7F7F7;
+	margin: 0;
+	padding: 6%;
+}
+
+footer p {
+	margin-bottom: 0.7rem;
+}
+
+@media only screen and (min-width: 768px) {
+	.carousel-caption h1 {
+		font-size: 2.2rem;
+	}
+	
+	.card-img-overlay {
+		padding: 5rem 2.25rem;
+	}
+
+	.card-title {
+		font-size: 2rem;
+	}
+
+	.ico-bg {
+		max-width: 8.5rem;
+		max-height: 8.5rem;
+	}
+
+	.carousel-caption p, .carousel-caption a {
+		font-size: 1rem;
+	}
+	
+	.hk, .hl, .ha {
+		top: 1%;
+	}
+	
+	footer p {
+		display: inline;
+	}
+	
+	.email {
+		float: right;
+	}
+	
+	.tvc {
+		padding: 7%;
+	}
+	
+	.tvc h1 {
+		margin-bottom: 7%;
+	}
+	
+	.tvc img {
+		margin: 5% 7%;
+		width: 86%;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.carousel-caption h1 {
+		font-size: 2.4rem;
+	}
+	
+	.card-img-overlay {
+		padding: 8rem 2.25rem;
+	}
+
+	.card-title {
+		font-size: 2.5rem;
+	}
+
+	.ico-bg {
+		max-width: 10rem;
+		max-height: 10rem;
+	}
+
+	.carousel-caption p, .carousel-caption a {
+		font-size: 1.3rem;
+	}
+	
+	.tvc {
+		padding: 5% 10%;
+	}
+	
+	.tvc img {
+		margin: 5% 10%;
+		width: 80%;
+	}
+	
+	.tvc h1 {
+		margin-bottom: 5%;
+	}
+	
+	footer {
+		padding: 3%;
+	}
+}
